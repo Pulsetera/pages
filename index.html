@@ -6,9 +6,6 @@
         background: rgb(0,107,231);
         background: linear-gradient(45deg, rgba(0,107,231,1) 0%, rgba(2,198,203,1) 100%) fixed;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
       }
       
       body {
@@ -17,6 +14,13 @@
         font-family: Arial;
         color: #fff;
         text-align: center;
+      }
+      
+      .center {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       
       h1 {
@@ -41,7 +45,9 @@
     </style>
   </head>
   <body>
+    <div class="center">
       <h1>Pulsetera</h1>
       <a href="mailto:info@pulsetera.com">Contact Us</a>
+    </div>
   </body>
 </html>
